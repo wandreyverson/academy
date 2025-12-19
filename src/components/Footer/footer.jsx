@@ -2,7 +2,7 @@ import './footer.css';
 import { FaInstagram } from "react-icons/fa6";
 import { FiFacebook } from "react-icons/fi";
 import { CiYoutube } from "react-icons/ci";
-import logo from "../../assets/link.svg"
+import logo from "../../assets/Link.svg"
 
 export default function Footer() {
     return (

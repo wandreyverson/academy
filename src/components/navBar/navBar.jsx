@@ -1,7 +1,7 @@
 import "./navBar.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import logo from "../../assets/link.svg"
+import logo from "../../assets/Link.svg"
 
 export default function NavBar() {
   const [open, setOpen] = useState(false);
