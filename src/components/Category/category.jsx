@@ -14,7 +14,7 @@ export default function Category() {
         {
             icon: <FaHeartbeat />,
             color: "--primary-red",
-            name: "Musculação"
+            name: "Musculação1"
         },
         {
             icon: <FaHeart />,
