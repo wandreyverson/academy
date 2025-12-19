@@ -2,6 +2,7 @@ import './footer.css';
 import { FaInstagram } from "react-icons/fa6";
 import { FiFacebook } from "react-icons/fi";
 import { CiYoutube } from "react-icons/ci";
+import logo from "../../assets/link.svg"
 
 export default function Footer() {
     return (
@@ -9,7 +10,7 @@ export default function Footer() {
             <footer>
                 <div className="itens-footer container">
                     <div className='footer-logo'>
-                        <img src="./src/assets/link.svg" alt="" className='space-footer' />
+                        <img src={logo} alt="" className='space-footer' />
                         <p>Transforme seu corpo e mente com a melhor
                             academia da região.</p>
                     </div>

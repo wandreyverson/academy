@@ -1,15 +1,15 @@
 import "./navBar.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import logo from "../../assets/link.svg"
 
 export default function NavBar() {
-  const logo = "/src/assets/link.svg";
   const [open, setOpen] = useState(false);
 
   return (
     <header className="navbar">
       <div className="container navbar-content">
-        
+
         <div className="navbar-logo">
           <Link to="/">
             <img src={logo} alt="logo" width={150} />
@@ -17,8 +17,8 @@ export default function NavBar() {
         </div>
 
         {/* Botão Burger */}
-        <div 
-          className={`burger ${open ? "active" : ""}`} 
+        <div
+          className={`burger ${open ? "active" : ""}`}
           onClick={() => setOpen(!open)}
         >
           <span></span>
